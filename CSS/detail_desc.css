@@ -1,67 +1,3 @@
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.section {
-    display: none;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.section.active {
-    display: block;
-}
-
-.invisible {
-    display: none;
-}
-
-.nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.nav li {
-    background: #ccc;
-    padding: 10px 15px;
-    margin-left: 6px;
-    cursor: pointer;
-    opacity: .3;
-}
-
-.nav li.active {
-    opacity: 1 !important;
-}
-
-.button {
-    margin-top: 20px;;
-    text-align: center;
-}
-
-.next,
-.previous {
-    padding: 15px 10px;
-    border-radius: 6px;
-    background-color: #04AA6D;
-    color: white;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 100px;
-}
-
-.next.disable,
-.previous.disable {
-    cursor: none;
-    opacity: .5;
-}
 *{
     margin: 0;
     padding:0;
@@ -267,4 +203,38 @@ h3{
 
 .footer p{
 	color: #000000;;
+}
+.section {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section.active {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav li {
+    background: #ccc;
+    padding: 10px 15px;
+    margin-left: 6px;
+    cursor: pointer;
+    opacity: .3;
+}
+
+.nav li.active {
+    opacity: 1 !important;
 }
