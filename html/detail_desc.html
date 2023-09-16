@@ -225,22 +225,18 @@ rel="stylesheet">
 	</section>
 
 <script>
-  const r2 = document.querySelector(".r2");
-  const r3 = document.querySelector(".r3");
-  const r4 = document.querySelector(".r4");
-  const r5 = document.querySelector(".r5");
-  const r6 = document.querySelector(".r6");
-  const r7 = document.querySelector(".r7");
-  const r8 = document.querySelector(".r8");
-  const r9 = document.querySelector(".r9");
-  r2.style.visibility = "hidden";
-  r3.style.visibility = "hidden";
-  r4.style.visibility = "hidden";
-  r5.style.visibility = "hidden";
-  r6.style.visibility = "hidden";
-  r7.style.visibility = "hidden";
-  r8.style.visibility = "hidden";
-  r9.style.visibility = "hidden";
+const link = document.querySelectorAll(".nav_desc a");
+
+Links.forEach(Link => {
+  Link.addEventListener("click", () => {
+    const sectionId = Link.getAttribute("href");
+    const section = document.querySelector(sectionId);
+    sections.forEach(section => {
+      section.style.display = "none";
+    });
+    section.style.display = "block";
+  });
+});
 </script>
 	</body>
 	</html>
