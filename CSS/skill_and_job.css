@@ -110,6 +110,9 @@ nav .fa-solid{
 	background: white;
 	padding: 20px ;
 }
+.snj_heading p{
+	font-size: 110%;
+}
 .snj_heading h1 {
 	text-align: center;
 }
@@ -163,15 +166,14 @@ p{
     padding: 10px;
 }
 
-
 .row{
-	margin-top: 5%;
+    margin-top: 5%;
 	margin-left: 10px;
 	margin-right: 40px;
 	flex-wrap: wrap;
-	display: flex;
-	justify-content: space-between;
-	}
+    display: flex;
+    justify-content: space-between;
+}
 
 .job{
     flex-basis: 47%;
