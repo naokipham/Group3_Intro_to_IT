@@ -178,12 +178,14 @@ p{
 
 .team-col{
     flex-basis: 31%;
-    background: #d1d1d1;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+    text-align: left;
+}
+
+.team-col img{
+	width: 100%;
+	border-radius: 10px;
 }
 
 h3{
