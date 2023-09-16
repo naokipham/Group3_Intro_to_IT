@@ -7,6 +7,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
+    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background2.png)
+    ;
     background-position:center;
     background-size:cover;
     position: relative;
@@ -81,7 +83,7 @@ nav img{
 
 .text-box{
     width: 90%;
-    color: #000000;
+    color: #ffffff;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -93,14 +95,14 @@ nav img{
 }   
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
-    color: #000000;
+    font-size: 18px;
+    color: #ffffff;
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color:#000000;
-    border: 1px solid #000000;
+    color:#ffffff;
+    border: 1px solid #ffffff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -108,8 +110,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #727272;
-    background:#727272;
+    border: 2px solid #727272;
+    background:black;
     transition: 1s;
 }
 
