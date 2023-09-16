@@ -41,15 +41,15 @@ rel="stylesheet">
 <main>
   <h1 align="center">Detail Description</h1>
   <ul class="nav_desc">
-    <li data-cont="r1"><a href="#r1">Aims</a></li>
-    <li data-cont="r2"><a href="#r2">Plans and Progress</a></li>
-    <li data-cont="r3"><a href="#r3">Roles</a></li>
-    <li data-cont="r4"><a href="#r4">Scope and Limits</a></li>
-    <li data-cont="r5"><a href="#r5">Tools and Technologies</a></li>
-    <li data-cont="r6"><a href="#r6">Testing</a></li>
-    <li data-cont="r7"><a href="#r7">Timeframe</a></li>
-    <li data-cont="r8"><a href="#r8">Risks</a></li>
-    <li data-cont="r9"><a href="#r9">Group Processes and Communications</a></li>
+    <li><a href="#r1" data-section="r1">Aims</a></li>
+    <li><a href="#r2" data-section="r2">Plans and Progress</a></li>
+    <li><a href="#r3" data-section="r3">Roles</a></li>
+    <li><a href="#r4" data-section="r4">Scope and Limits</a></li>
+    <li><a href="#r5" data-section="r5">Tools and Technologies</a></li>
+    <li><a href="#r6" data-section="r6">Testing</a></li>
+    <li><a href="#r7" data-section="r7">Timeframe</a></li>
+    <li><a href="#r8" data-section="r8">Risks</a></li>
+    <li><a href="#r9" data-section="r9">Group Processes and Communications</a></li>
   </ul>
   <section id="r1" class="section section-one active">
     <h2>Aims</h2>
@@ -223,17 +223,20 @@ rel="stylesheet">
 	    <p>Copyright ©
 	        by Group 3[Technophilia] COSC2083. All rights reserved.</p>
 	</section>
-
 <script>
-const link = document.querySelectorAll(".nav_desc a");
+	const navigationLinks = document.querySelectorAll(".nav_desc a");
 
-Links.forEach(Link => {
-  Link.addEventListener("click", () => {
-    const sectionId = Link.getAttribute("href");
+navigationLinks.forEach(navigationLink => {
+  navigationLink.addEventListener("click", () => {
+    const sectionId = navigationLink.getAttribute("data-section");
     const section = document.querySelector(sectionId);
+
+    // Hide all sections
     sections.forEach(section => {
       section.style.display = "none";
     });
+
+    // Show the selected section
     section.style.display = "block";
   });
 });
