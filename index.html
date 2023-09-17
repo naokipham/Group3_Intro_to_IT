@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+     <title> NBglasses </title>
+     <link rel=" stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;600;700&display=swap"
+     rel="stylesheet">
+     <script src="https://kit.fontawesome.com/866259e8ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="bg">
+        <!--header-->
+    <section class="header">
+           <nav>
+            <a href="https://zennpham520.github.io/Group3_Intro_to_IT/"><img src="https://zennpham520.github.io/Group3_Intro_to_IT/image/rmitlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href= "https://zennpham520.github.io/Group3_Intro_to_IT/">HOMEPAGE</a></li>
+                    <li><a href= "html/team_profile.html">TEAM PROFILE</a></li>
+                    <li><a href= "html/tools.html">TOOLS</a></li>
+					<li><div class="dropdown">
+						<a>PROJECT DESCRIPTION</a>
+						<div class="dropdown-menu">
+						<a href="html/overview_page.html">Overview</a>
+						<a href="html/detail_desc.html">Detail Description</a>
+						</div>
+					</div>
+					</li>
+                    <li><a href= "html/skill_and_job.html">SKILLS AND JOBS</a></li>
+                    <li><a href= "html/reflection.html">GROUP REFLECTION</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+<div class="text-box">
+    <h1> NBglasses </h1>
+    <p> Hello :] Welcome to NBglasses, a revolutionary pair of translation. Our aim with this project was
+        to create something that will remove language barriers and improve communication. In the beginning,
+        we started out with a normal pair of translation glasses that incorporated Augmented Reality and 
+        Computer Vision to translate images and audio. However, we realized that to truly remove language
+        barriers, we needed think more inclusive. Hence, introducing our sign language translation feature.
+        Our goal is to be as inclusive and groundbreaking as possible with our project and help unite the 
+        world.
+    </p>
+    <a href="" class="hero-btn">More information on NBglasses</a>
+</div>
 
+</section>
+
+<!-- Team Profile -->
+<section class="team">
+    <h1>Meet our team. Technophilia.</h1>
+    <p>Technophilia means being enthusiastic about technology and
+        being passionate about different types of technology-related objects.</p>
+  <div class="row">
+                <div class="team-col">     
+		    <img src="">
+                    <h3> Chen Zhengbo [Chen] </h3>
+                    <p> SID: S3979325 </p>
+                </div>
+                <div class="team-col">
+		    <img src="https://zennpham520.github.io/Group3_Intro_to_IT/image/lhn.png">
+                    <h3> Linn Htin Nyo [Dean] </h3> 
+                    <p> SID: S4037889 </p>
+                </div>
+                <div class="team-col">
+                    <h3> Nguyen Thanh Dat [Tommy] </h3>
+                    <p> SID: S3830318 </p>
+                </div>
+                <div class="team-col">
+		    <img src="https://zennpham520.github.io/Group3_Intro_to_IT/image/zenn.png">
+                    <h3> Pham Nguyen Hoang Ngan [Zenn] </h3>
+                    <p> SID: S4026699 </p>
+                </div>
+                <div class="team-col"> 
+		    <img src="https://zennpham520.github.io/Group3_Intro_to_IT/image/zyra.png">
+                    <h3> Phyu Phyu Shinn Thant [Zyra] </h3>
+                    <p> SID: S4022136 </p>
+                </div>
+            </div>
+        </div>
+    
+</section>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>Copyright </h4>
+    <p>Copyright ©
+        by Group 3[Technophilia] COSC2083. All rights reserved.</p>
+</section>
+
+<!-- JavaScript for toggle menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+</body>
+</html>

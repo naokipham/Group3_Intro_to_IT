@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+     <title> NBglasses </title>
+     <link href="https://zennpham520.github.io/Group3_Intro_to_IT/CSS/reflection.css" rel="stylesheet" type="text/css">>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;600;700&display=swap"
+     rel="stylesheet">
+     <script src="https://kit.fontawesome.com/866259e8ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+ 	<nav>
+            <a href="https://zennpham520.github.io/Group3_Intro_to_IT/"><img src="https://zennpham520.github.io/Group3_Intro_to_IT/image/rmitlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href= "https://zennpham520.github.io/Group3_Intro_to_IT/">HOMEPAGE</a></li>
+                    <li><a href= "team_profile.html">TEAM PROFILE</a></li>
+                    <li><a href= "tools.html">TOOLS</a></li>
+					<li><div class="dropdown">
+						<a>PROJECT DESCRIPTION</a>
+						<div class="dropdown-menu">
+						<a href="overview_page.html">Overview</a>
+						<a href="detail_desc.html">Detail Description</a>
+						</div>
+					</div>
+					</li>
+                    <li><a href= "skill_and_job.html">SKILLS AND JOBS</a></li>
+                    <li><a href= "reflection.html">GROUP REFLECTION</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+
+<!-- Group reflection -->
+<section class="group-reflection">
+
+    <div class="row">
+        <div class="group-left"> 
+            <img src= "https://zennpham520.github.io/Group3_Intro_to_IT/image/background.png"> 
+            <h2> Group Reflection</h2>
+            <p>Phyu Phyu Shinn Thant (Zyra)
+                Some tasks went well, such as dividing our sections and working on our individual sections. 
+                There are a few things that can be improved, including communication, and time management. 
+                Compared to our first assignment, I believe we lacked a bit more communication this time 
+                around since we were not able to have as many face-to-face meetings. Due to this reason,
+                our time management was relatively flawed. One thing that came across as surprising was 
+                the web development section. In the beginning, according to the lecturer, we thought we
+                would only need a basic HTML website with minimal design and user-friendliness, however,
+                this turned out to be untrue if a group wanted to get HD, DI, or CR. We had to at least
+                incorporate CSS for web design as well. Personally, I learned that groups, in general,
+                need communication and different roles for each member to allow us to work more efficiently 
+                and effectively in a team environment. 
+                </p>
+                <br> 
+                <p> ......person..... </p>
+                
+                <div class="feedback-box"> 
+                    <h3> Leave a feedback </h3>
+
+                    <form class="feedback-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows ="5" placeholder="Your feedback"> 
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn "> POST FEEDBACK </button>
+                    </form>
+                </div>
+        </div>
+        <div class="group-right"> </div>
+    </div>
+
+
+</section>
+<!-- Footer -->
+<section class="footer">
+    <h4>Copyright </h4>
+    <p>Copyright ©
+        by Group 3[Technophilia] COSC2083. All rights reserved.</p>
+</section>
+
+<!-- JavaScript for toggle menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+</body>
+</html>
 
