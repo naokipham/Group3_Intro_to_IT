@@ -193,6 +193,8 @@ h3{
 .group-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+.overall{
+	
 @media(max-width:700){
     .row{
         flex-direction: column;
