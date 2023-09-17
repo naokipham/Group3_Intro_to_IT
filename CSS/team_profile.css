@@ -157,14 +157,14 @@ nav .fa-solid{
   margin-top: 50px;
 }
 
-.team:hover{
+.team-member:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 .team-member {
   width: 25%;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
 }
 
 .team-member-image {
