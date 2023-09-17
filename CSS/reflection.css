@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background2.png)
+    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background.png)
     ;
     background-position:center;
     background-size:cover;
@@ -203,6 +203,7 @@ h3{
     background: #f0f0f0;
 }
 .feedback-form button{
+	background: grey;
     margin: 10px 0;
 }
 	
