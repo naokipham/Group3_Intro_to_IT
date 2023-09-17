@@ -12,7 +12,6 @@
 /* Table Style */
 .tableLimit{
     width: 100%;
-    border-collapse: collapse;
     margin-bottom: 200px;
     border: 1px solid rebeccapurple;
 }
@@ -28,6 +27,26 @@
 }
 
 .tableLimit tr {
+    background-color: #f2f2f2; 
+}
+
+.tableRole{
+    width: 100%;
+    margin-bottom: 200px;
+    border: 1px solid rebeccapurple;
+}
+
+.tableRole th, td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #a71f1f;
+}
+
+.tableRole th{
+    background-color: #f2f2f2;
+}
+
+.tableRole tr {
     background-color: #f2f2f2; 
 }
 
