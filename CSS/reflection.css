@@ -96,7 +96,7 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #000000;
+    color: #ffffff;
 }
 .hero-btn{
     display: inline-block;
@@ -163,7 +163,7 @@ h1{
 }
 
 p{
-	color: #777;
+	color: #fff;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 22px;
@@ -179,7 +179,7 @@ p{
 
 .group-col{
 	flex-basis: 31%;
-	background: #ACBABF;
+	background: #fff;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	padding: 20px 12px;
