@@ -10,8 +10,6 @@
 }
 
 nav{
-    width: 90%; 
-    position:fixed; 
     display: flex;
     padding: 2% 6%;
 	background:#292929;
@@ -157,57 +155,78 @@ nav .fa-solid{
 	color: #000000;;
 }
 
-.section {
-    display: block; 
-    padding-top:260px;
-    padding-left:40px;
-    padding-right:40px;
+header h1 {
+    font-size:36px;
+    padding-top:20px;
 }
+
 h2 {
+    padding-top: 15px;
+    padding-bottom:15px;
     text-align:center;
 }
-
-.section.active {
+h2:hover {
+    background: whitesmoke;
+    box-shadow: 0 0 50px 0px rgb(0 0 0 / 20%);
+}
+table img {
+    align: center;
     display: block;
-
+    margin-left:80px;
+    margin-right:50px;
+    border-radius: 8px;
+    border-block-color: lightgray;
+	transition: background-color 0.3s;
+}
+table img:hover {
+    background: black;
+    box-shadow: 0 0 50px 0px rgb(0 0 0 / 20%);
+}
+table p {
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left:20px;
+}
+p{
+    margin-right: 80px;
+    margin-left:80px;
 }
 
-.invisible {
-    display: none;
+h4 {
+    padding-top: 15px;
+    padding-bottom:15px;
+	margin-left: 80px;
 }
-
-.nav_desc {
-    position:fixed;
-    margin-top: 187px; 
-    width:100%;; list-style: none; 
-    display: flex; align-items: center; 
-    justify-content: center; 
-    gap: 10px; 
-    padding: 15px 15px;
-    background: white; 
+a {
+	margin-left: 80px;
+	text-decoration:none;
+	
 }
-
-.nav_desc a { text-decoration: none; 
-             color: black; 
-             padding: 15px 15px; 
-             margin-left: 6px; 
-             cursor: pointer; 
-             opacity: .3; 
-            } 
-.nav_desc a:hover { 
-    background: lightgray;
-} 
-
-.heading {width:100%; 
-          position:fixed;
-          margin-top:113px; 
-          padding:10px 0px;
-          background: lightgray
-         }
-.heading h1{font-size:36px; 
-            font-weight:600; 
-            text-align:center;
-            ;
-           }
-
-
+ form {
+	 margin-left: 80px;
+ }
+form legend{
+	font-size: 24px;
+	text-shadow: 1px 2px darkgray;
+	padding-bottom: 20px;
+}
+form label {
+	display: block;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+form input {
+	width: 95%;
+	margin-left:20px;
+	display: inline-block;
+	border-radius: 3px;
+	border-color: lightgray;
+}
+.submit {
+	margin-left:20px;
+	padding: 20px;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
