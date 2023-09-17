@@ -142,56 +142,6 @@ nav .fa-solid{
     }
 }
 
-/* Team profile */
-.team{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-
-p{
-    color: #000000;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.team-col{
-    flex-basis: 31%;
-    background: #d1d1d1;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-.team-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-@media(max-width:700 px){
-    .row{
-        flex-direction: column;
-    }
-}
-
 /* Footer */
 .footer{
     width: 100%;
@@ -203,4 +153,91 @@ h3{
 
 .footer p{
 	color: #000000;;
+}
+
+header h1 {
+    font-size:36px;
+    padding-top:20px;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-align:center;
+}
+h2:hover {
+    background: whitesmoke;
+    box-shadow: 0 0 50px 0px rgb(0 0 0 / 20%);
+}
+
+table {
+  margin: 0 auto;
+}
+table img {
+	margin-top: 20px;
+	margin-bottom: auto;
+    align: center;
+    display: block;
+    margin-left:80px;
+    margin-right:50px;
+    border-radius: 8px;
+    border-block-color: lightgray;
+	transition: background-color 0.3s;
+}
+table img:hover {
+    background: black;
+    box-shadow: 0 0 50px 0px rgb(0 0 0 / 20%);
+}
+table p {
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left:20px;
+}
+p{
+    margin-right: 80px;
+    margin-left:80px;
+}
+
+h4 {
+    padding-top: 15px;
+    padding-bottom:15px;
+	margin-left: 80px;
+}
+main a {
+	margin-left: 80px;
+	text-decoration:none;
+	color: darkcyan;
+}
+ form {
+	 margin-left: 80px;
+	 margin-right:80px;
+	 padding-bottom:40px;
+ }
+form legend{
+	font-size: 24px;
+	text-shadow: 1px 2px darkgray;
+	padding-bottom: 20px;
+}
+form label {
+	display: block;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+form input {
+	width: 95%;
+	margin-left:20px;
+	display: inline-block;
+	border-radius: 3px;
+	border-color: lightgray;
+}
+.submit {
+	margin-bottom:20px;	
+	width:10%;
+}
+div input {
+	background: white;
+}
+div input:hover {
+    background-color: darkgrey;
+    color: black;
 }
