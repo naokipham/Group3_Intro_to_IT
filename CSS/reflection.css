@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background.png)
+    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background2.png)
     ;
     background-position:center;
     background-size:cover;
@@ -83,7 +83,7 @@ nav img{
 
 .text-box{
     width: 90%;
-    color: #000000;
+    color: #ffffff;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -95,14 +95,14 @@ nav img{
 }   
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color:#000000;
-    border: 1px solid #000000;
+    color:#ffffff;
+    border: 1px solid #ffffff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -110,8 +110,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #727272;
-    background:#727272;
+    border: 2px solid #727272;
+    background:black;
     transition: 1s;
 }
 
@@ -150,9 +150,8 @@ nav .fa-solid{
     }
 }
 
-/* group-reflection */
-
-.group-reflection{
+/* Team profile */
+.team{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -171,57 +170,17 @@ p{
     padding: 10px;
     text-align: center;
 }
-
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.group-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
-.group-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-.overall{
-	
-@media(max-width:700){
+@media(max-width:700 ){
     .row{
         flex-direction: column;
     }
 }
 
-/* feedback box */
-.feedback-box{
-    border: 1px solid #ccc;
-    margin: 50px 0;
-    padding: 10px 20px ;
-}
-.feedback-box h3{ 
-    text-align: left;
-}
-.feedback-form input, .feedback-form textarea{
-    width: 100% ;
-    padding: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    background: #f0f0f0;
-}
-.feedback-form button{
-    margin: 10px 0;
-}
 /* Footer */
 .footer{
     width: 100%;
