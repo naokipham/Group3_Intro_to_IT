@@ -163,7 +163,7 @@ h1{
 }
 
 p{
-	color: #fff;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 22px;
@@ -179,7 +179,7 @@ p{
 
 .group-col{
 	flex-basis: 31%;
-	background: #fff;
+	background: #ffffff;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	padding: 20px 12px;
