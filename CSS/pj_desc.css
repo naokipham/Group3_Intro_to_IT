@@ -4,6 +4,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
+
 .bg{
 	background: lightgray;
 }
@@ -143,7 +144,6 @@ nav .fa-solid{
     }
 }
 
-
 /* Footer */
 .footer{
     width: 100%;
@@ -169,8 +169,12 @@ h2 {
 
 .section.active {
     display: block;
+
 }
 
+.invisible {
+    display: none;
+}
 
 .nav_desc {
     position:fixed;
@@ -205,3 +209,5 @@ h2 {
             text-align:center;
             ;
            }
+
+
