@@ -155,30 +155,32 @@ nav .fa-solid{
     }
 }
 
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
 
-.group-reflection{
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row{
+	margin-top: 5%
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.group-col{
     width: 80%;
     margin: auto;
     padding: 60px 0;
-}
 
-.group-left{
-    flex-basis: 65%;
-}
 
-.group-left img{
-    width: 100%;
-}
-.group-left h2{
-    color: #222;
-    font-weight: 600;
-    margin: 30px 0;
-}
-.group-left p{
-    color:#fff;
-    padding: 0
-    font-size: 30px;
-}
 
 .feedback-box{
     border: 1px solid #ccc;
