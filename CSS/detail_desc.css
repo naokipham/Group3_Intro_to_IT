@@ -8,25 +8,28 @@
 .bg{
 	background: lightgray;
 }
+
 /* Table Style */
-.limitTable{
+.tableLimit{
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    border: 1px solid;
+    margin-bottom: 200px;
+    border: 1px solid rebeccapurple;
 }
 
-th, td{
+.tableLimit th, td{
     padding: 10px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #a71f1f;
 }
 
-th{
+.tableLimit th{
     background-color: #f2f2f2;
 }
 
-
+.tableLimit tr {
+    background-color: #f2f2f2; 
+}
 
 nav{
     width: 90%; 
