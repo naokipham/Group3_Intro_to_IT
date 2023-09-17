@@ -169,7 +169,13 @@ h2:hover {
     background: whitesmoke;
     box-shadow: 0 0 50px 0px rgb(0 0 0 / 20%);
 }
+
+table {
+  margin: 0 auto;
+}
 table img {
+	margin-top: 20px;
+	margin-bottom: auto;
     align: center;
     display: block;
     margin-left:80px;
@@ -204,6 +210,8 @@ a {
 }
  form {
 	 margin-left: 80px;
+	 margin-right:80px;
+	 padding-bottom:40px;
  }
 form legend{
 	font-size: 24px;
@@ -223,10 +231,13 @@ form input {
 	border-color: lightgray;
 }
 .submit {
-	margin-left:20px;
-	padding: 20px;
+	margin-bottom:20px;	
+	width:10%;
 }
-.submit:hover {
-    background-color: white;
+div input {
+	background: white;
+}
+div input:hover {
+    background-color: darkgrey;
     color: black;
 }
