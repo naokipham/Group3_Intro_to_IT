@@ -39,7 +39,8 @@ rel="stylesheet">
         </nav>
 </section>
 <main>
-  <h1 align="center">Detail Description</h1>
+<section class="heading">
+  <h1 align="center">Detail Description</h1></section>
   <ul class="nav_desc">
     <li><a href="#r1" data-section="r1">Aims</a></li>
     <li><a href="#r2" data-section="r2">Plans and Progress</a></li>
@@ -223,24 +224,7 @@ rel="stylesheet">
 	    <p>Copyright ©
 	        by Group 3[Technophilia] COSC2083. All rights reserved.</p>
 	</section>
-<script>
-	const navigationLinks = document.querySelectorAll(".nav_desc a");
 
-navigationLinks.forEach(navigationLink => {
-  navigationLink.addEventListener("click", () => {
-    const sectionId = navigationLink.getAttribute("data-section");
-    const section = document.querySelector(sectionId);
-
-    // Hide all sections
-    sections.forEach(section => {
-      section.style.display = "none";
-    });
-
-    // Show the selected section
-    section.style.display = "block";
-  });
-});
-</script>
 	</body>
 	</html>
 
