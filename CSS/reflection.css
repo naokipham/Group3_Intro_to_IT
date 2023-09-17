@@ -7,6 +7,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
+    background-image: linear-gradient(rgba(62, 63, 67, 0.7),rgb(43 43 43 / 70%)), url(https://zennpham520.github.io/Group3_Intro_to_IT/image/background.png)
+    ;
     background-position:center;
     background-size:cover;
     position: relative;
@@ -155,29 +157,44 @@ nav .fa-solid{
     }
 }
 
-
-.group-reflection{
-    width: 80%;
-    margin: auto;
-    padding: 60px 0;
+h1{
+	font-size: 36px;
+	font-weight: 600;
 }
 
-.group-left{
-    flex-basis: 65%;
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
 }
 
-.group-left img{
-    width: 100%;
+.row{
+	margin-top: 5%
+	display: flex;
+	justify-content: space-between;
 }
-.group-left h2{
-    color: #222;
-    font-weight: 600;
-    margin: 30px 0;
+
+
+.group-col{
+	flex-basis: 31%;
+	background: #ACBABF;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
 }
-.group-left p{
-    color:#fff;
-    padding: 0
-    font-size: 30px;
+
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.group-col: hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 .feedback-box{
