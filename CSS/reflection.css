@@ -150,8 +150,9 @@ nav .fa-solid{
     }
 }
 
-/* Team profile */
-.team{
+
+/* Reflection */
+.group-reflection{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -170,16 +171,41 @@ p{
     padding: 10px;
     text-align: center;
 }
+
+@media(max-width:700){
+  .row{
+        flex-direction: column;
+    }
+}
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
-@media(max-width:700 ){
-    .row{
-        flex-direction: column;
-    }
+
+
+/* feedback box */
+.feedback-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px ;
 }
+.feedback-box h3{ 
+    text-align: left;
+}
+.feedback-form input, .feedback-form textarea{
+    width: 100% ;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.feedback-form button{
+    margin: 10px 0;
+}
+	
 
 /* Footer */
 .footer{
@@ -191,5 +217,5 @@ h3{
 }
 
 .footer p{
-	color: #000000;;
+	color: #000000;
 }
