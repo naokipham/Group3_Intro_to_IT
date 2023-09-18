@@ -250,3 +250,9 @@ h2 {
             text-align:center;
             ;
            }
+.pic1 img {
+    width: 100%;
+}
+.pic2 img {
+    width: 1439.2px;  
+}
