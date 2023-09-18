@@ -25,5 +25,43 @@ ul, li {
     font-size: 16px; 
 }
 
+body
+{
+    font-family: "Kanit", sans-serif;
+    margin: 35px;
+}
+
+h1, h2
+{
+    color: #333;
+}
+
+a
+{
+    color: #4a4ace;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+img
+{
+    max-width: 500px;
+    margin: 10px;
+}
+
+.figure
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.figure-caption
+{
+    font-style: italic;
+}
 
 
