@@ -118,12 +118,15 @@ nav .fa-solid{
 }
 h2 {
 	text-align: center;
+	padding: 20px 0px;
 }
-.general {
-	padding: 20px;
+.general ul {
+
+	margin-left: 80px
 }
 .general h4 {
 	margin: 20px 0px 5px 0px;
+	margin-left: 80px
 }
 .skill li{
 	font-size: 110%;
@@ -164,24 +167,22 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+	margin-left: 80px
 }
 
+
 .row{
-    margin-top: 5%;
-	margin-left: 10px;
-	margin-right: 40px;
+    margin: 20px 50px 0px 50px;
 	flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
 
 .job{
-    flex-basis: 47%;
+    flex-basis: 49%;
     background: #ffffff;
     border-radius: 10px;
-    margin-bottom: 5%;
-	margin-left: 3%;
-	margin-right: 1.5%;
+    margin-bottom: 3%;
     padding: 20px 20px;
     box-sizing: border-box;
     transition: 0.5s;
